@@ -5,9 +5,13 @@ For the below challenge we compare 2 models.  One using historical prices while 
 The Fear & Greed index is very popular among Crypto Investors to gain insight on the popular sentiment to inform their trades.  For both models I applied the <a href='https://en.wikipedia.org/wiki/Long_short-term_memory'>LSTM RNN<a/> deep learning model.  The loss for the "Fear & Greed" model was 0.1239, while the historical prices model had a lower loss of 0.0360.  As you can see in the graphs below, predicting future prices using the historical prices was considerably more accurate than basing predictions solely on the "Fear & Greed" index.
 
 <img src='Starter_Code/Predicting price with Fear & Greed.png' alt="Predicting price with Fear & Greed">
+    
+The code for the "Fear & Greed" model can be found <a href='https://github.com/eriklarson33/HW_14-LSTM_RNN_Stock_Predictor/blob/master/Starter_Code/lstm_stock_predictor_fng.ipynb'>here</a>.
 
 <img src="Starter_Code/Predicting price using historical prices.png" alt="Predicting price using historical prices.">
 
+The code for the historical price model can be found <a href='https://github.com/eriklarson33/HW_14-LSTM_RNN_Stock_Predictor/blob/master/Starter_Code/Predicting%20price%20using%20historical%20prices.png'>here</a>.
+    
 ---
     
 ## Stock Predictor Challenge:
