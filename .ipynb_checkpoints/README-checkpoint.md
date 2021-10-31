@@ -1,5 +1,17 @@
 # LSTM Stock Predictor
+---
+For the below challenge we compare 2 models.  One using historical prices while the other using the <a href="https://www.investopedia.com/terms/f/fear-and-greed-index.asp">"Fear & Greed Index"</a> to predict the price of Bitcoin.
 
+The Fear & Greed index is very popular among Crypto Investors to gain insight on the popular sentiment to inform their trades.  For both models I applied the <a href='https://en.wikipedia.org/wiki/Long_short-term_memory'>LSTM RNN<a/> deep learning model.  The loss for the "Fear & Greed" model was 0.1239, while the historical prices model had a lower loss of 0.0360.  As you can see in the graphs below, predicting future prices using the historical prices was considerably more accurate than basing predictions solely on the "Fear & Greed" index.
+
+<img src='Starter_Code/Predicting price with Fear & Greed.png' alt="Predicting price with Fear & Greed">
+
+<img src="Starter_Code/Predicting price using historical prices.png" alt="Predicting price using historical prices.">
+
+---
+    
+## Stock Predictor Challenge:
+    
 ![deep-learning.jpg](Images/deep-learning.jpg)
 
 Due to the volatility of cryptocurrency speculation, investors will often try to incorporate sentiment from social media and news articles to help guide their trading strategies. One such indicator is the [Crypto Fear and Greed Index (FNG)](https://alternative.me/crypto/fear-and-greed-index/) which attempts to use a variety of data sources to produce a daily FNG value for cryptocurrency. You have been asked to help build and evaluate deep learning models using both the FNG values and simple closing prices to determine if the FNG indicator provides a better signal for cryptocurrencies than the normal closing price data.
